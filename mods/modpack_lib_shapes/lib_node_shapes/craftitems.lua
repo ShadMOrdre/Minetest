@@ -24,24 +24,4 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_node("lib_node_shapes:light_overhead_flourescent",{
-	drawtype="nodebox",
-	description= "Strip Light",
-	light_source = 14,
-	tiles = { 'default_wood.png',
-	          'default_cloud.png',
-			  'default_wood.png',
-			  'default_wood.png',
-			  'default_wood.png',
-			  'default_wood.png' },
-	paramtype2 = "facedir",
-	node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.500000,0.250000,-0.250000,0.500000,0.407216,0.250000},
-			{-0.500000,0.312500,-0.062500,0.500000,0.500000,0.062500}, 
-		},
-	},
-	groups={oddly_breakable_by_hand=3},
-})
 
