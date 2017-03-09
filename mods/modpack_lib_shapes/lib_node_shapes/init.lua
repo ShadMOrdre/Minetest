@@ -361,7 +361,7 @@ lib_node_shapes.register_shaped_nodes =  function(shape_name, shape_def)
 			groups = new_node_groups,
 			sounds = node_def.sounds,
 			base_material = def.name,
-			shape_type = shape_name,
+			shape_type = shape_def.shape_type or shape_name,
 
 
 			on_place = function(itemstack, placer, pointed_thing)
