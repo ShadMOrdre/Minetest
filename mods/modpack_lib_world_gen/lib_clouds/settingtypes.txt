@@ -1,0 +1,17 @@
+#Enable clouds to generate.
+#true or false
+lib_clouds_generation (Dynamic water) bool true
+
+[Cloud Y min/max]
+
+#Sets the probability of water flow per block per second.
+lib_clouds_cirrus_maxy (Maximum altitude to generate these clouds) int 150
+lib_clouds_cirrus_miny (Minimum altitude to generate these clouds) int 110
+
+#Sets the probability of river water flow per block per second.
+lib_clouds_cumulus_maxy (Maximum altitude to generate these clouds) int 90
+lib_clouds_cumulus_miny (Minimum altitude to generate these clouds) int 5
+
+#Sets the probability of lava flow per block per second.
+lib_clouds_fog_maxy (Maximum altitude to generate these clouds) int 25
+lib_clouds_fog_miny (Minimum altitude to generate these clouds) int 0
