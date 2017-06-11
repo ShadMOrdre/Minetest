@@ -23,7 +23,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 		diggable = false,
 		climbable = false,
 		buildable_to = false,
-		sounds = default.node_sound_defaults(),
 		groups = {lib_clouds = 1},
 
 		--node lifespan
@@ -47,7 +46,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 		diggable = false,
 		climbable = false,
 		buildable_to = false,
-		sounds = default.node_sound_defaults(),
 		groups = {lib_clouds = 1},
 
 		--node lifespan
@@ -71,7 +69,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 		diggable = false,
 		climbable = false,
 		buildable_to = false,
-		sounds = default.node_sound_defaults(),
 		groups = {lib_clouds = 1},
 
 		--node lifespan
@@ -198,7 +195,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 						
 					minetest.set_node(randpos, {name = "lib_clouds:cloud_cirrus"})
 							
-					minetest.sound_play("selfrep_roadbuild", {pos = pos, gain = 0.2, max_hear_distance = 10,})
 				end	
 					
 			end
@@ -261,7 +257,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 					
 				minetest.set_node(randpos, {name = "lib_clouds:cloud_cirrus"})
 						
-				minetest.sound_play("selfrep_roadbuild", {pos = pos, gain = 0.2, max_hear_distance = 10,})
 			end	
 				
 		end
@@ -310,7 +305,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 						
 					minetest.set_node(randpos, {name = "lib_clouds:cloud_cumulus"})
 							
-					minetest.sound_play("selfrep_roadbuild", {pos = pos, gain = 0.2, max_hear_distance = 10,})
 				end	
 					
 			end
@@ -366,7 +360,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 							
 						minetest.set_node(randpos, {name = "lib_clouds:cloud_cumulus"})
 								
-						minetest.sound_play("selfrep_roadbuild", {pos = pos, gain = 0.2, max_hear_distance = 10,})
 					end	
 				end
 			end
@@ -415,7 +408,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 						
 					minetest.set_node(randpos, {name = "lib_clouds:cloud_fog"})
 							
-					minetest.sound_play("selfrep_roadbuild", {pos = pos, gain = 0.2, max_hear_distance = 10,})
 				end	
 					
 			end
@@ -471,7 +463,6 @@ if minetest.setting_getbool("lib_clouds_generation") == true then
 							
 						minetest.set_node(randpos, {name = "lib_clouds:cloud_fog"})
 								
-						minetest.sound_play("selfrep_roadbuild", {pos = pos, gain = 0.2, max_hear_distance = 10,})
 					end	
 				end
 			end
